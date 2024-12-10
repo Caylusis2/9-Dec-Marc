@@ -11,5 +11,8 @@ Variables to create:
 Print out your calculation for a, b and c
 '''
 #Write your code below this line
+print(10 * 20)
+print(10 * 240)
+print(10 * 2400)
 
 

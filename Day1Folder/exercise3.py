@@ -11,8 +11,9 @@ command will contain the command you give to your peasants
 Do not add any additional lines to this program
 The output of this program should be something like "Greetings Sir Ian" or "Greetings Queen Elsa"
 '''
-title = "Emperor"
-name = "Johnson"
-command = "eat cake"
+title = "Principal"
+name = "David"
+command = "kill the sheeps"
 
 #Example Output: Emperor Johnson commands his peasants to eat cake!
+print(title + " "+ name + " commands his people to " + command + " in minecraft")
