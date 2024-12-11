@@ -10,3 +10,29 @@ After each try, the computer will the player one of the following:
 If the player did not guess correctly after 7 times, 
 the program will tell the player the answer.
 '''
+import random
+randomnumber = random.randint(1, 100)
+# print("the random number is", randomnumber)
+wingame = False
+
+
+print("the hidden number is from 1 to 100")
+for count in range(7):
+    answer = input ("Guess a number:")
+    answer = int(answer)
+    if answer == randomnumber:
+        print("you got it, the answer is", randomnumber)
+        wingame = True
+        break
+
+    if answer > randomnumber:
+        print("try a smaller number")
+    else:
+        print("try a bigger number")
+
+if wingame:
+    print()
+else:
+    print("Game over! You used up all your tries" )
+    
+    
